@@ -1,0 +1,79 @@
+* {
+    font-family: nunito, serif;
+}
+  
+  p {
+    font-size: 1rem;
+    color: #939393;
+    text-align: justify;
+}
+
+  .container {
+    background-color: white;
+    border-radius: 5px;
+    max-width: 800px;
+    padding: 20px 0px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formulario {
+    align-items: center;
+}
+
+  body {
+    background-image: url("fondo.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .redes-sociales {
+    margin-right: 0;
+}
+
+.redes-sociales-items {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+button {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    max-width: 150px;
+    padding: 10px 30px;
+    background-color: red;
+    border-radius: 25px;
+    border: none;
+}
+
+.campos {
+    margin-bottom: 20px;
+    text-align: center;
+} 
+
+.campos input {
+    width: 90%;
+    padding: 10px;
+    padding-left: 40px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+}
+
+.campos .icono { 
+    position:absolute;
+    left: 15px;
+}
+
+.redes-sociales-items {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.redes-sociales-items li {
+    list-style: none;
+} 
